@@ -1,12 +1,18 @@
 import React from 'react';
-import pic2 from '../assets/pic2.jpg';
+import { useNavigate } from 'react-router-dom';
+import pic3 from '../assets/pic3.jpg';
 
 const Image2 = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/pic3');
+  };
   return (
-    <div className="relative border-4 border-black">
+    <div className="relative border-4 border-black cursor-pointer" onClick={handleClick}>
       <div className="border-4 border-yellow-400">
         <img
-          src={pic2}
+          src={pic3}
           alt="Event 2"
           className="w-full h-auto"
         />
