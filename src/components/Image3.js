@@ -13,12 +13,12 @@ const Image3 = () => {
       <div className="border-4 border-yellow-400">
         <img
           src={pic4}
-          alt="Event 2"
+          alt="Event 3"
           className="w-full h-auto"
         />
       </div>
       <div className="absolute bottom-0 left-0 right-0 bg-yellow-400 p-2">
-        <p className="text-black">Event 2</p>
+        <p className="text-black">Event 3</p>
       </div>
     </div>
   );
